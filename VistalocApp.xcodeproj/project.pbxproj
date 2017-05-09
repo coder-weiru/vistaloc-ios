@@ -12,7 +12,6 @@
 		17FC2F851E258FC500174015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FC2F831E258FC500174015 /* Main.storyboard */; };
 		17FC2F871E258FC500174015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FC2F861E258FC500174015 /* Assets.xcassets */; };
 		17FC2F8A1E258FC500174015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FC2F881E258FC500174015 /* LaunchScreen.storyboard */; };
-		17FC2F921E25908D00174015 /* CognitoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FC2F911E25908D00174015 /* CognitoLogo.png */; };
 		17FC2F951E2590D800174015 /* MFAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17FC2F941E2590D800174015 /* MFAViewController.xib */; };
 		17FC2F971E25928900174015 /* MFAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2F961E25928900174015 /* MFAViewController.swift */; };
 		17FC2F991E25940900174015 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2F981E25940900174015 /* SignInViewController.swift */; };
@@ -23,6 +22,7 @@
 		17FC2FA31E25A5D000174015 /* ConfirmForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2FA21E25A5D000174015 /* ConfirmForgotPasswordViewController.swift */; };
 		17FC2FA51E25A77600174015 /* UserDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2FA41E25A77600174015 /* UserDetailTableViewController.swift */; };
 		17FC2FA71E25A9A200174015 /* DevicesDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC2FA61E25A9A200174015 /* DevicesDetailTableViewController.swift */; };
+		4AE8AC611EC141B2007452E6 /* conference-room-splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AE8AC601EC141B2007452E6 /* conference-room-splash.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,6 @@
 		17FC2F861E258FC500174015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17FC2F891E258FC500174015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17FC2F8B1E258FC500174015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17FC2F911E25908D00174015 /* CognitoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CognitoLogo.png; sourceTree = "<group>"; };
 		17FC2F941E2590D800174015 /* MFAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAViewController.xib; sourceTree = "<group>"; };
 		17FC2F961E25928900174015 /* MFAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFAViewController.swift; sourceTree = "<group>"; };
 		17FC2F981E25940900174015 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		17FC2FA41E25A77600174015 /* UserDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewController.swift; sourceTree = "<group>"; };
 		17FC2FA61E25A9A200174015 /* DevicesDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesDetailTableViewController.swift; sourceTree = "<group>"; };
 		2D8C9B52DE415302BA7B152A /* Pods-VistalocApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VistalocApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VistalocApp/Pods-VistalocApp.release.xcconfig"; sourceTree = "<group>"; };
+		4AE8AC601EC141B2007452E6 /* conference-room-splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "conference-room-splash.jpg"; sourceTree = "<group>"; };
 		AB8F26771F0FF8105FC402DD /* Pods_VistalocApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VistalocApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEB9BB4F88788184F7DD583 /* Pods-VistalocApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VistalocApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VistalocApp/Pods-VistalocApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,7 +104,7 @@
 		17FC2F931E25909300174015 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				17FC2F911E25908D00174015 /* CognitoLogo.png */,
+				4AE8AC601EC141B2007452E6 /* conference-room-splash.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -190,9 +190,9 @@
 			files = (
 				17FC2F8A1E258FC500174015 /* LaunchScreen.storyboard in Resources */,
 				17FC2F871E258FC500174015 /* Assets.xcassets in Resources */,
-				17FC2F921E25908D00174015 /* CognitoLogo.png in Resources */,
 				17FC2F851E258FC500174015 /* Main.storyboard in Resources */,
 				17FC2F951E2590D800174015 /* MFAViewController.xib in Resources */,
+				4AE8AC611EC141B2007452E6 /* conference-room-splash.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

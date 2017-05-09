@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SfA-Z0-41u">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SfA-Z0-41u">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -43,11 +43,11 @@
                                     <action selector="signInPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UGV-Ac-v2h"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CognitoLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="m7f-tY-FzQ">
-                                <rect key="frame" x="97.5" y="194" width="180" height="180"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="conference-room-splash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="m7f-tY-FzQ">
+                                <rect key="frame" x="16" y="28" width="343" height="346"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="180" id="aZf-WV-AUb"/>
-                                    <constraint firstAttribute="width" constant="180" id="dJa-v1-03Z"/>
+                                    <constraint firstAttribute="height" constant="346" id="aZf-WV-AUb"/>
+                                    <constraint firstAttribute="width" constant="343" id="dJa-v1-03Z"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXe-qm-Syq">
@@ -64,18 +64,19 @@
                                     <segue destination="BkF-2Z-FaF" kind="show" identifier="forgotPasswordSegue" id="999-73-2kk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cognito User Pools Sample" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHw-29-FDb">
-                                <rect key="frame" x="59.5" y="382" width="256" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Vista Loc" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHw-29-FDb">
+                                <rect key="frame" x="59" y="398" width="256" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="0Yb-K0-Luy"/>
                                     <constraint firstAttribute="width" constant="256" id="YLR-ws-3Lo"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.72336632013320923" green="0.70119346640529423" blue="0.077348809549551617" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nHw-29-FDb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="237" id="35e-wK-eBH"/>
                             <constraint firstItem="O01-Qr-hlK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3b2-zO-6hE"/>
@@ -115,7 +116,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-507" y="72"/>
+            <point key="canvasLocation" x="-508" y="71.514242878560722"/>
         </scene>
         <!--Forgot Password-->
         <scene sceneID="4u0-bl-9q3">
@@ -156,7 +157,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.72336632010000002" green="0.70119346640000002" blue="0.077348809549999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6BZ-sc-Lc1" firstAttribute="leading" secondItem="AeR-Mz-1Zm" secondAttribute="leading" id="2mO-FD-fcL"/>
                             <constraint firstItem="AeR-Mz-1Zm" firstAttribute="top" secondItem="6BZ-sc-Lc1" secondAttribute="bottom" constant="8" symbolic="YES" id="5XN-Cm-M3q"/>
@@ -210,6 +211,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.72336632010000002" green="0.70119346640000002" blue="0.077348809549999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -269,6 +271,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.72336632010000002" green="0.70119346640000002" blue="0.077348809549999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -369,7 +372,7 @@
                                 </variation>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.72336632010000002" green="0.70119346640000002" blue="0.077348809549999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="L92-OD-AWi" firstAttribute="leading" secondItem="WyZ-BE-297" secondAttribute="leading" id="0eN-cC-jid"/>
                             <constraint firstItem="SR0-Gn-9Nf" firstAttribute="leading" secondItem="yJN-sh-wk7" secondAttribute="leading" id="22D-mr-kMA"/>
@@ -500,7 +503,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.72336632010000002" green="0.70119346640000002" blue="0.077348809549999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2AX-rN-0c4" firstAttribute="top" secondItem="5ip-nQ-ff9" secondAttribute="bottom" constant="8" id="6cr-zo-Uhx"/>
                             <constraint firstItem="5ip-nQ-ff9" firstAttribute="top" secondItem="DPa-qj-OwO" secondAttribute="bottom" constant="8" symbolic="YES" id="95L-AV-TGg"/>
@@ -606,7 +609,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.72336632010000002" green="0.70119346640000002" blue="0.077348809549999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="yfQ-Se-BxR" firstAttribute="top" secondItem="s02-hv-Uoj" secondAttribute="bottom" constant="8" symbolic="YES" id="1cB-Kh-za8"/>
                             <constraint firstItem="s02-hv-Uoj" firstAttribute="trailing" secondItem="jfj-m7-W5X" secondAttribute="trailing" id="4Na-a1-tKK"/>
@@ -653,6 +656,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="CognitoLogo.png" width="250" height="250"/>
+        <image name="conference-room-splash.jpg" width="1280" height="853"/>
     </resources>
 </document>
